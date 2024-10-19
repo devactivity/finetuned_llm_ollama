@@ -8,3 +8,10 @@ Berikut kebutuhan terkait yg digunakan dalam project ini:
 - unsloth: [pretrained model](https://github.com/unslothai/unsloth)
 
 Ouput `.gguf` file juga sudah tersedia dan bisa langsung digunakan, silahkan download melalui link [Google drive](https://youtube.com/live/Y4a17qNeekE) yg sudah disediakan dalam deskripsi video.
+
+Setelah download semua file yang tersedia, jalankan service Ollama lalu ketik perintah berikut untuk membuat dan menjalankan model:
+
+```
+ollama create nama_model_disini -f ./Modefile
+ollama run nama_model_disini
+```
